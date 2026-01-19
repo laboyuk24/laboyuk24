@@ -1,0 +1,1 @@
+worker: python senga92.py
