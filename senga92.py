@@ -388,7 +388,7 @@ def cleanup_other_drivers_messages(order_id, winner_driver):
 
 
 def notify_if_not_taken_later(order_id):
-    time.sleep(10)  # 3 daqiqa
+    time.sleep(150)  # 3 daqiqa
 
     orders = load_json(ORDERS_FILE)
     order = orders.get(order_id)
